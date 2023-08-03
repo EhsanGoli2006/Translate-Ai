@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Translate Ai",
+    "version": "1.0",
+    "description": "The Translate AI extension is a powerful tool for quick and easy translation of texts into Persian.",
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "sweetalert.all.js",
+                "background.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "background": {
+        "service_worker": "service.js"
+    }
+}

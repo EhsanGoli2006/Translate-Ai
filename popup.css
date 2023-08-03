@@ -1,0 +1,59 @@
+body {
+    border: 1.5px dashed #e2e2e2;
+    margin: 3px;
+}
+
+* {
+    font-family: IRANYekanX !important;
+    direction: rtl !important;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none !important;
+    color: rgba(0, 94, 255, 0.813);
+}
+
+.container {
+    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.header h3,
+.header p {
+    text-align: center;
+}
+
+.header p {
+    font-size: 14px;
+}
+
+.header h3 {
+    margin: 10px;
+    font-size: 19px;
+}
+
+.form-section input {
+    display: inline-block;
+    width: 90.7%;
+    margin-bottom: 7px;
+    border: 0.5px solid #e2e2e2e2;
+    padding: 9px 12px;
+    outline: none !important;
+}
+.form-section button {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 7px;
+    border: none;
+    padding: 12px;
+    outline: none !important;
+    text-align: center;
+}
