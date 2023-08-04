@@ -46,7 +46,7 @@ The extension uses the OpenAI API for translating texts. Therefore, you need to 
 
 ### Step 2: Adding the API Token to the Extension:
 
-1. After obtaining the OpenAI API key, place this key within your extension. Use a form in the toolbar for entering the API token.
+After obtaining the OpenAI API key, place this key within your extension. Use a form in the toolbar for entering the API token.
 
 <br>
 
