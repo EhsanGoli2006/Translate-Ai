@@ -17,7 +17,9 @@ function StopViewProcess() {
 
 window.onload = () => {
     chrome.storage.local.get(["openai_token"]).then((token) => {
-        document.getElementById("key").value = token.openai_token;
+        if (token.openai_token != null) {
+            document.getElementById("key").value = token.openai_token;
+        }
     });
 };
 
