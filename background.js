@@ -30,11 +30,18 @@ function AddCustomFontDocument() {
     var styleElement = document.createElement('style');
     var fontFaceCSS = `
 h2#swal2-title {
-    font-family: Calibri ;
+    font-family: Calibri !important;
     text-align: right;
 }
 #helpButton {
     text-align: center !important;
+}
+div#swal2-html-container {
+    font-family: calibri !important;
+    line-height: 1.6;
+}
+button.swal2-confirm.swal2-styled {
+    font-family: calibri !important;
 }
 `;
     styleElement.innerHTML = fontFaceCSS;
