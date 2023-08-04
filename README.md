@@ -5,19 +5,18 @@ Translate Ai is a translation plugin that utilizes OpenAI's artificial intellige
 
 You can install the extension using two methods:
 - Chrome Web Store
-- Using the Developer option.
+- Manual installation 
 
 ### Installation from Chrome Web Store
 1. Go to the [Chrome Web Store](https://chrome.google.com/).
 2. Find "Translate Ai" in the extension search.
 3. Click on the "Install" button.
 
-### Installation from the Extension Source File
-1. Download the latest version of the extension from the source repository and extract it.
-2. Access the "Settings" menu in your browser.
-3. Navigate to the "Extensions" section.
-4. Choose to enable Developer Mode.
-5. Click on "Load unpacked" and select the folder containing the extension.
+### Manual installation in chrome
+1. Download the [latest version](https://github.com/EhsanGoli2006/Translate-Ai/releases/download/V1.0/TranslateAi.zip) of the extension from the source repository and extract it.
+2. Open `chrome://extensions` in Chrome
+3. Enable developer mode (top right corner).
+5. Click on `Load unpacked` and select the unzipped folder.
 
 <br>
 
